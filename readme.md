@@ -6,3 +6,5 @@ I declared and assigned value for my day planner array.
 and used local storage to store the data.
 Then i checked my planned day equal to my stored day.
 The greatest advantage is I made rows, coloms, button which required for this planner created by using jquery, That makes it the html strucure simple.
+These are the screenshots of my dayplanner
+![](/2020-06-08.png)
