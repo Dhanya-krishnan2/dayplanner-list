@@ -7,4 +7,5 @@ and used local storage to store the data.
 Then i checked my planned day equal to my stored day.
 The greatest advantage is I made rows, coloms, button which required for this planner created by using jquery, That makes it the html strucure simple.
 These are the screenshots of my dayplanner
+In my planner it changes the color when the time is past to blue, and if it is a current it shows red color and future time block shows green color.
 ![](/2020-06-08.png)
