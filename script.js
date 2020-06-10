@@ -73,7 +73,7 @@ function getHeaderDate() {
 
 // saves data to localStorage
 function saveReminders() {
-    localStorage.setItem("myPlannedDay", JSON.stringify(myDay));
+    localStorage.setItem("myPlannedDay", JSON.stringify(myPlannedDay));
 }
 
 // sets any data in localStorage to the view
