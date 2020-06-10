@@ -9,3 +9,4 @@ The greatest advantage is I made rows, coloms, button which required for this pl
 These are the screenshots of my dayplanner
 In my planner it changes the color when the time is past to blue, and if it is a current it shows red color and future time block shows green color.
 ![](/2020-06-08.png)
+![](/2020-06-10.png)
