@@ -1,3 +1,4 @@
+// Initialised an array of item which required to set the planner and the first id is in the 0 the position
 var myPlannedDay = [
     {
         id: "0",
@@ -66,17 +67,20 @@ var myPlannedDay = [
 ]
 
 // gets data for the header date
+// using moment.js to retrieve the current date and gives the format in the required format
 function getHeaderDate() {
     var currentHeaderDate = moment().format('dddd, MMMM Do');
     $("#currentDay").text(currentHeaderDate);
 }
 
 // saves data to localStorage
+// and adding that data to the plannedday and making that format in json format by using the method called jason stringify
 function saveReminders() {
     localStorage.setItem("myPlannedDay", JSON.stringify(myPlannedDay));
 }
 
 // sets any data in localStorage to the view
+// the display remainer function sets for to give us the remainder and using the method for each to iterate
 function displayReminders() {
     myPlannedDay.forEach(function (_thisHour) {
         $(`#${_thisHour.id}`).val(_thisHour.reminder);
