@@ -140,7 +140,7 @@ myPlannedDay.forEach(function(thisHour) {
     }
 
     //  here we are creating button by using the html statement in jquery
-    var saveButton = $("<i class='far fa-save fa-lg'></i>")
+    var saveButton = $("<i class='far fa-save fa-lg'>save</i>")
     var savePlan = $("<button>")
         .attr({
             "class": "col-md-1 saveBtn"
